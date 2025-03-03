@@ -24,7 +24,8 @@ with st.sidebar:
     ''')
     add_vertical_space(5)
     st.write('Made by Suvardhan Dileep')
-
+    
+#create an .env file and enter your api key like OPENAI_API_KEY=YOUR_API_KEY
 load_dotenv()
 def main():
     st.header("Chat with PDF")
