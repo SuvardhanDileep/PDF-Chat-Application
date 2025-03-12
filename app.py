@@ -76,7 +76,7 @@ def main():
             docs = VectorStore.similarity_search(query=query, k=3)
             #context
             # st.write(docs)
-            llm = OpenAI(model_name="gpt-3.5-turbo")
+            llm = OpenAI(model_name="gpt-4.0")
             chain = load_qa_chain(llm=llm,chain_type="stuff")
             response=chain.run(input_documents=docs,question=query)
             st.write(response)
