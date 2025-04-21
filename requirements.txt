@@ -6,3 +6,4 @@ streamlit==1.18.1
 faiss-cpu==1.7.4
 pydantic==1.10.9
 altair==4.2.2
+tiktoken==0.4.0
