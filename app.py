@@ -15,7 +15,7 @@ def add_vertical_space(num_lines: int):
 
 #Sidebar contents
 with st.sidebar:
-    st.title(' LLM Chat App')
+    st.title(' PDF Chat App')
     st.markdown(''' 
     This app is an LLM-powered chatbot built using:
     - [Streamlit](https://streamlit.io/)
@@ -23,7 +23,7 @@ with st.sidebar:
     - [OpenAI](https://platform.openai.com/docs/models) LLM model
     ''')
     add_vertical_space(5)
-    st.write('Made by Suvardhan Dileep')
+    st.write('Made by Suvardhan Dileep Gaddameedi')
 
 load_dotenv()
 def main():
